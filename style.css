@@ -8,6 +8,27 @@
 /*..........component..........*/
 /*..............................*/
 
+
+.title{
+    font-size: 42px;
+    margin: auto; 
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top:20px;
+}
+.tittle::after{
+content:'';
+display: block;
+width: 150px;
+height: 3px;
+background-color: #f18b31;
+margin: auto;
+margin-top: 20px;
+}
+.row{
+    display: flex;
+}
+
 /*..............................*/
 /*..........Header..........*/
 /*.............................. */
@@ -365,3 +386,90 @@ border-bottom: 2px solid rgb(245, 245, 245) ;
     background-color: #f18b31;
 }
 
+/* ..............................*/
+/*..........section-6..........*/
+/*..............................*/
+#section-6{
+    width: 100%;
+  height: 572.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+}
+.container6{
+    width: 50%;
+    height: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.header6{
+    width: 100%;
+    flex-basis: 30%;
+    
+    padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 25px;
+        margin-bottom: 114,5px;
+        display: flex;
+        justify-content: center;
+}
+/* .header6::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #f18b31;
+    margin: auto;
+    margin-top: 20px;
+} */
+.text6{
+    width: 100%;
+flex-basis: 70%;
+
+display: flex;
+justify-content: space-between;
+
+}
+.left-text6{
+    flex-basis: 25%;
+    
+    
+}
+.right-text6{
+    flex-basis: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.textleft{
+    margin-bottom: 20px;
+}
+#fname{
+    width: 100%;
+    height: 25px;
+    background-color: transparent;
+}
+.form-text6{
+margin-bottom: 15px;
+}
+#Special6{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+.button-section6{
+    padding-inline: 20px;
+    padding-block: 10px;
+    color: white;
+    border-radius: 40px;
+    border: 1.5px solid #f18b31;
+    cursor: pointer;
+    background-color: #f18b31;
+}
